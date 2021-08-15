@@ -1,0 +1,45 @@
+#CN:hover {
+    width: 1250px;
+    height: 302px;
+}
+
+#special:hover {
+    background-color: darkgray;
+}
+
+#H:hover {
+    color: orange;
+}
+
+.space {
+    padding-left: 7px;
+}
+
+#btn {
+    display: none;
+}
+
+
+/* .hov:hover .hov {
+    background-color: wheat;
+    z-index: 3000;
+} */
+
+.hov:hover #btn {
+    display: block;
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+    /* On :hover of div show button */
+}
+
+.b:hover .b {
+    background-color: orange;
+}
+
+#A:hover #A {
+    text-decoration: underline
+}
